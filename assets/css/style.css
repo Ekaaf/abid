@@ -195,7 +195,7 @@ img {
 }
 
 .section-padding {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 @media (max-width: 1199px) {
@@ -694,11 +694,17 @@ img {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out .15s,
+ -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,
+ box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,
+ -webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,
+ box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,
+ box-shadow ease-in-out .15s,
+ -webkit-box-shadow ease-in-out .15s;
 }
 
 .wpcf7-form select {
@@ -962,7 +968,7 @@ img {
   text-transform: capitalize;
 }
 
-.services-grids .grid:hover .details {
+/*.services-grids .grid:hover .details {
   background-color: rgba(253, 201, 0, 0.9);
   width: 100%;
   height: 100%;
@@ -979,7 +985,7 @@ img {
 
 .services-grids .grid:hover .details h3 i {
   background: transparent;
-}
+}*/
 
 .dots-s1 .owl-controls {
   margin-top: 0;
